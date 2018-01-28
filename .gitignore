@@ -1,0 +1,65 @@
+
+build/
+*~
+lib/
+
+############king###############################33
+# map
+*.bin
+# ORBvoc.txt.tar.gz
+ORBvoc.txt.tar.gz
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMakeLists.txt
+*.txt.user
+
+# .gitignore
+*.swp
+*~
+
+# build file
+build
+build-*
+bin
+lib
+image
+# Vocabulary file
+Vocabulary
+# pcd file
+*.pcd
+
+# shell
+*.sh~
+
