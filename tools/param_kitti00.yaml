@@ -1,0 +1,14 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Kitti Sequence 01 Parameters. 
+#--------------------------------------------------------------------------------------------
+
+# 0/1 means image/video
+Video: 0
+# image file path
+file_path: /home/king/Documents/image/01/image_0
+# color/gray
+Color: 0
+# homography matrix file path
+homography: /home/king/Documents/king/LaneLineDetection/tools/h.xml

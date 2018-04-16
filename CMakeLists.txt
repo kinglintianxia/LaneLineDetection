@@ -40,7 +40,7 @@ target_link_libraries(lane_line_detection
 	)
 
 # add executable
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/tools)
+# set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/tools)
 add_executable(get_img_pts tools/GetimgPoints.cpp)
 target_link_libraries(get_img_pts ${OpenCV_LIBS})
 

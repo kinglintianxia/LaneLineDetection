@@ -1,0 +1,14 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Video 1.avi Parameters. 
+#--------------------------------------------------------------------------------------------
+
+# 0/1 means image/video
+Video: 1
+# image file path
+file_path: /home/king/Documents/king/LaneLineDetection/image/1.avi
+# color/gray
+Color: 1
+# homography matrix file path
+homography: /home/king/Documents/king/LaneLineDetection/tools/video.xml

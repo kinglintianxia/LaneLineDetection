@@ -342,7 +342,9 @@ void LaneLineDet::LaneLineDetection( cv::Mat &src)
     // Perspective transfromation
     cv::Mat inv_pers_img;
     PerspectiveTrans(hough_img,inv_pers_img, false);
+#ifdef Debug
     cv::imshow("inv_hough", inv_pers_img);
+#endif
 /*****mask******************************************************************/
     cv::Mat dst_img;
     src_img.copyTo(dst_img, inv_pers_img);

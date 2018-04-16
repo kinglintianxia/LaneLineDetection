@@ -26,7 +26,7 @@ int main(int argc, char** argv)
         {
             cap >> src_img;
             // for save
-    //        cv::imwrite("../image/video.png", src_img);
+           // cv::imwrite("./image/video.png", src_img);
             if (src_img.empty())
                    break;
             lane_line_det.LaneLineDetection(src_img);
